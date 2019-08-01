@@ -57,17 +57,18 @@
   };
 </script>
 
-  <meta name="description" content="短信服务框架基于laravel 5.5+ 环境要求 Composer PHP &amp;gt;= 7.0.0 OpenSSL PHP Extension PDO PHP Extension Mbstring PHP Extension Tokenizer PHP Extension XML PHP Extension  特别注意凌凯用到的短信签名一定要跟我报备下,否则凌凯短信会被我拦截,从而发不出去!!!">
+  <meta name="description" content="开心啊开心开心开心">
+<meta name="keywords" content="test">
 <meta property="og:type" content="article">
 <meta property="og:title" content="测试">
 <meta property="og:url" content="http://yoursite.com/2019/07/31/test/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="短信服务框架基于laravel 5.5+ 环境要求 Composer PHP &amp;gt;= 7.0.0 OpenSSL PHP Extension PDO PHP Extension Mbstring PHP Extension Tokenizer PHP Extension XML PHP Extension  特别注意凌凯用到的短信签名一定要跟我报备下,否则凌凯短信会被我拦截,从而发不出去!!!">
+<meta property="og:description" content="开心啊开心开心开心">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-01T00:43:17.000Z">
+<meta property="og:updated_time" content="2019-08-01T16:40:27.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="测试">
-<meta name="twitter:description" content="短信服务框架基于laravel 5.5+ 环境要求 Composer PHP &amp;gt;= 7.0.0 OpenSSL PHP Extension PDO PHP Extension Mbstring PHP Extension Tokenizer PHP Extension XML PHP Extension  特别注意凌凯用到的短信签名一定要跟我报备下,否则凌凯短信会被我拦截,从而发不出去!!!">
+<meta name="twitter:description" content="开心啊开心开心开心">
   <link rel="canonical" href="http://yoursite.com/2019/07/31/test/">
 
 
@@ -239,24 +240,9 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-08-01 08:43:17" itemprop="dateModified" datetime="2019-08-01T08:43:17+08:00">2019-08-01</time>
+                <time title="修改时间：2019-08-02 00:40:27" itemprop="dateModified" datetime="2019-08-02T00:40:27+08:00">2019-08-02</time>
               </span>
             
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/TCP/" itemprop="url" rel="index"><span itemprop="name">TCP</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           <br/>
@@ -270,24 +256,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="短信服务"><a href="#短信服务" class="headerlink" title="短信服务"></a>短信服务</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p>基于laravel 5.5+</p>
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
-<li>Composer</li>
-<li>PHP &gt;= 7.0.0</li>
-<li>OpenSSL PHP Extension</li>
-<li>PDO PHP Extension</li>
-<li>Mbstring PHP Extension</li>
-<li>Tokenizer PHP Extension</li>
-<li>XML PHP Extension</li>
-</ul>
-<h2 id="特别注意"><a href="#特别注意" class="headerlink" title="特别注意"></a>特别注意</h2><p>凌凯用到的短信签名一定要跟我报备下,否则凌凯短信会被我拦截,从而发不出去!!!!</p>
-<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>修改.env 文件， 主要参数如下：</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#线上环境配置</span></span><br><span class="line">APP_ENV=</span><br><span class="line">APP_DEBUG=</span><br><span class="line"></span><br><span class="line"><span class="comment">#数据库配置</span></span><br><span class="line">DB_CONNECTION=mysql</span><br><span class="line">DB_HOST=</span><br><span class="line">DB_PORT=</span><br><span class="line">DB_DATABASE=</span><br><span class="line">DB_USERNAME=</span><br><span class="line">DB_PASSWORD=</span><br><span class="line"></span><br><span class="line"><span class="comment">#阿里云短信</span></span><br><span class="line">ALIYUN_SMS_ACCESS_KEY_ID=</span><br><span class="line">ALIYUN_SMS_ACCESS_KEY_SECRET=</span><br><span class="line">ALIYUN_SMS_SIGN_NAME=</span><br><span class="line"><span class="comment">#凌凯短信</span></span><br><span class="line">LINGKAI_SMS_CORPID=</span><br><span class="line">LINGKAI_PWD=</span><br></pre></td></tr></table></figure>
-
-<h3 id="crontab"><a href="#crontab" class="headerlink" title="crontab"></a>crontab</h3><p> path/php artisan sms:send</p>
-<blockquote>
-<p>path 为service服务根目录的完整路径，eg:xxx/sms-service/</p>
-</blockquote>
+        <h2 id="开心啊"><a href="#开心啊" class="headerlink" title="开心啊"></a>开心啊</h2><p>开心开心开心</p>
 
     </div>
 
@@ -296,6 +265,12 @@
     
 
     <footer class="post-footer">
+          
+        
+        <div class="post-tags">
+            <a href="/tags/test/" rel="tag"># test</a>
+          
+        </div>
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
           </div>
@@ -365,14 +340,14 @@
     
       
       
-      <div class="site-state-item site-state-categories">
+      <div class="site-state-item site-state-tags">
         
         
         
           
         
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">分类</span>
+        <span class="site-state-item-name">标签</span>
         
       </div>
     
@@ -392,7 +367,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#短信服务"><span class="nav-number">1.</span> <span class="nav-text">短信服务</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#框架"><span class="nav-number">1.1.</span> <span class="nav-text">框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#环境要求"><span class="nav-number">1.2.</span> <span class="nav-text">环境要求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#特别注意"><span class="nav-number">2.</span> <span class="nav-text">特别注意</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">2.1.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#crontab"><span class="nav-number">2.2.</span> <span class="nav-text">crontab</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#开心啊"><span class="nav-number">1.</span> <span class="nav-text">开心啊</span></a></li></ol></div>
             
 
           </div>
